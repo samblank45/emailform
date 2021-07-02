@@ -6,5 +6,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  email: string;
+  email: string = '';
+
+  // constructor() {
+  //   setInterval(() => {
+  //     this.email += 'a';
+
+  //   }, 1000);
+  // }
 }
